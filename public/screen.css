@@ -41,7 +41,7 @@ a {
 
 .suggested_items {
   transform: translateY(25vh);
-  position: absolute;
+  display: flex;
 }
 
 .item {
@@ -49,7 +49,6 @@ a {
   height: 50vh;
   float: left;
   margin: 5em;
-  align-content: center;
   text-align: center;
   padding: 0.25em;
   background: #50b6bb;
@@ -85,5 +84,4 @@ h3 {
 
 li {
   color: black;
-  /* text-align: center; */
 }
